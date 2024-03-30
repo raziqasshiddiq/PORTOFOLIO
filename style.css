@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Navbar */
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+
+.jumbotron img {
+  margin-bottom: 2rem;
+}
+
+/* About */
+#About {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Project */
+#Project {
+  background-color: #f8f9fa;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+/* Contact */
+#Contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer span {
+  font-size: 0.9rem;
+}
